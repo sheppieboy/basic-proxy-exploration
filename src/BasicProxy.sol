@@ -24,4 +24,10 @@ contract Logic1 {
     }
 }
 
-contract Logic2 {}
+contract Logic2 {
+    uint256 public x = 0;
+
+    function changeX(uint256 _x) public {
+        x = _x;
+    }
+}
